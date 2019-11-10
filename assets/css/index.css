@@ -1,0 +1,24 @@
+@media (max-width: 68rem) {
+	
+	.nome {
+		display: flex;
+		align-self: center;
+		margin-left: 25rem;
+		font-size: 3.5rem;
+		margin-right: 5rem;
+	}
+
+	.header {
+		display: flex;
+		background-color: Blue
+	}
+
+	.menu{
+		display: flex;
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 3.5rem;
+		margin-right: 10rem;
+
+	}
+
