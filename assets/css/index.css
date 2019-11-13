@@ -35,9 +35,10 @@
 
 	}
 
-	.logo{			
+	.calendario{			
 		display: flex;
 		align-self: center;
-		margin-right: 8rem;
+		margin-right: 8rem;		
+		margin-left: 2.5rem;
 
 	}
