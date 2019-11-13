@@ -1,0 +1,35 @@
+@media (max-width: 68rem) {
+	
+	.nome {
+		display: flex;
+		align-self: center;
+		margin-left: 25rem;
+		font-size: 3.5rem;
+		margin-right: 5rem;
+	}
+
+	.header {
+		display: flex;
+		background-color: #5B2A8C
+	}
+
+	.menu{
+		display: flex;
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 3.5rem;
+		margin-right: 10rem;
+
+	}
+	.container{
+		display: flex;
+		align-self: center;
+		
+
+	}
+
+	.logo{			
+		display: flex;
+		align-self: center;
+
+	}
