@@ -26,3 +26,16 @@
 		padding-right: 5pt;
 
 	}
+
+	.container_dia {
+		display:block;
+		background-color: #000000;
+		border-radius: 0.8rem;
+
+	}
+
+	.dia {
+		font-family: 'Merriweather', serif;
+		padding:0.5rem;
+		font-size: 2.5rem;
+	}
