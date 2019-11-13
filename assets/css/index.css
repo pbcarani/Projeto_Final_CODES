@@ -11,7 +11,7 @@
 
 	.header {
 		display: flex;
-		background-color: #5B2A8C
+		background-color: #059900
 
 	}
 
@@ -36,6 +36,6 @@
 	}
 
 	.calendario{			
-		width: 70rem;
-		height: 70rem;
+		width: 60rem;
+		height: 60rem;
 	}
