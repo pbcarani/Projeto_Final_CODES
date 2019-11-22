@@ -68,7 +68,7 @@
 	.horario {
 		margin-top:2rem;
 		display:grid;
-		grid-template-columns: 43rem 20rem;
+		grid-template-columns: 43rem 10rem;
 		grid-template-rows: 150px;
 	}
 
