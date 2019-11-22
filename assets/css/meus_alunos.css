@@ -12,7 +12,7 @@
 
 	.header {
 		display: flex;
-		background-color: #62c237;
+		background-color: #059900;
 
 	}
 
@@ -92,7 +92,7 @@
 
 	/* Dropdown Button */
 	.dropbtn {
-  		background-color: #62c237;
+  		background-color: #059900;
   		color: white;
   		padding: 16px;
   		font-size: 25px;
@@ -154,7 +154,8 @@
 	.barra_nome {
 		font-family: 'Merriweather', serif;
 		font-size: 25px;
-		padding: 1rem;
+		padding: 0.25rem;
+		margin-top: .5rem;
 		color: #ffffff;
 	}
 
@@ -167,4 +168,9 @@
 	.grid_preferencias {
 		display: grid;
 		grid-template-rows: 5rem 5rem 5rem;
+	}
+
+	.adicionar {
+		margin-left: 22.5rem;
+		margin-top: 2rem;
 	}
