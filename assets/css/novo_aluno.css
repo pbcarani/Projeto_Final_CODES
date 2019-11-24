@@ -1,0 +1,83 @@
+@media (max-width: 68rem) {
+
+
+	.header {
+		display: flex;
+		background-color: #059900
+
+	}
+
+	.menu{
+		width: 9rem;
+		height: 9rem;
+		object-fit: fill;
+		display: flex;
+		margin-right: 20%;
+		align-self: center;	
+		flex-direction: row-reverse;
+		padding-right: 5pt;
+
+}
+	.nome {
+		display: flex;
+		align-self: center;
+		margin-left: 22rem;
+		font-size: 5rem;
+		margin-right: 5rem;
+		font-color: white;
+	}
+
+	.container{
+		display: grid;
+		align-self: center;
+
+	}
+
+	.aluno {
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 4rem;
+		margin-right: 5rem;
+		font-color: white
+
+	}
+
+
+	.imagem{
+		justify-content: center;
+		margin-left: 300px;
+		margin-top: 25px;
+}
+		
+	.idade {
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 4rem;
+		margin-right: 2rem;
+		font-color: white}
+
+	.peso{
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 4rem;
+		margin-right: 5rem;
+		font-color: white
+	}
+
+	.altura{
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 4rem;
+		margin-right: 5rem;
+		font-color: white
+	}
+
+	.objetivo{
+		align-self: center;
+		margin-left: 5rem;
+		font-size: 4rem;
+		margin-right: 5rem;
+		font-color: white
+	}
+
+
