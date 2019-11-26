@@ -3,6 +3,7 @@
 <head>
   <title>Connect</title>
     <link href="assets/css/meus_alunos.css" rel="stylesheet">
+    <script src="assets/js/meus_alunos.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -11,7 +12,9 @@
 <body class="body">
 	<header class="header">
     	<p class="nome">Alunos</p>
-      <img class="menu" href="dia.html" src="assets/img/menu.png" alt="menu"> 
+      <a class="redireciona" href="inicio.html">
+      	<img class="menu" href="dia.html" src="assets/img/menu.png" alt="menu">
+      </a>
   </header>
   <div class="barra_pesquisa_preferencias">
   	<div class="barra_pesquisa">
@@ -24,7 +27,7 @@
   	<div class="preferencia1">
   		<div class="modalidade">
 		<div class="dropdown">
-  			<button class="dropbtn">Natação</button>
+  			<button class="dropbtn">Natação	</button>
   				<div class="dropdown-content">
     				<a href="#">Thiago</a>
     				<a href="#">Matheus</a>
@@ -42,7 +45,7 @@
   			<button class="dropbtn">Maratona</button>
   				<div class="dropdown-content">
     				<a href="#">Maria</a>
-    				<a href="#">Marta</a>
+    				<a href="#">Rosangela</a>
     				<a href="#">Roberto</a>
     				<a href="#">Joesley</a>
   				</div>
@@ -111,7 +114,11 @@
    		</div>
 
    		<div class="aluno_2">
-   			<img class="aluno" src="assets/img/pessoa.png" alt="icone pessoa" style="width:320px; height:320px">
+   			<div class="popup" onclick="myFunction()">
+   				<img class="aluno" src="assets/img/pessoa.png" alt="icone pessoa" style="width:320px; height:320px">
+   				o
+   				<span class="popuptext" id="myPopup"> Deseja convidar Carlos? (Sim/Não) </span>
+   			</div>
    			<div class="barra_nome_preferencias">
    				<div class="nome_aluno">
    						Carlos
@@ -180,6 +187,5 @@
    				</div>
    			</div>
    		</div>
-   	<img class="adicionar" src="assets/img/Icone.png" style="width: 225px; height: 225px">	
    </div>
 </body>
