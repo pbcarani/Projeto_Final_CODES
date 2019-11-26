@@ -1,0 +1,42 @@
+@media (max-width: 68rem) {
+	
+	.nome {
+		display: flex;
+		align-self: center;
+		margin-left: 22rem;
+		font-size: 5rem;
+		margin-right: 5rem;
+		font-color: white;
+	}
+
+	.header {
+		display: flex;
+		background-color: #059900;
+
+	}
+
+	.menu{
+		width: 9rem;
+		height: 9rem;
+		object-fit: fill;
+		display: flex;
+		margin-right: 20%;
+		align-self: center;	
+		flex-direction: row-reverse;
+		padding-right: 5pt;
+		margin-top: 3rem;
+
+}
+
+	
+	.container{
+		display: flex;
+		align-self: center;
+		
+
+	}
+
+	.calendario{			
+		width: 60rem;
+		height: 60rem;
+	}
