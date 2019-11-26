@@ -1,0 +1,175 @@
+@media (max-width: 68rem) {
+
+	.nome {
+		font-family: 
+		display: flex;
+		align-self: center;
+		margin-left: 22rem;
+		font-size: 5rem;
+		margin-right: 5rem;
+		font-color: white;
+	}
+
+	.header {
+		display: flex;
+		background-color: #059900;
+
+	}
+
+	.menu{
+		width: 9rem;
+		height: 9rem;
+		display: flex;
+		margin-right: 20%;
+		align-self: center;
+		padding-right: 5pt;
+		margin-top: 3rem;
+
+	}
+
+	.barra_pesquisa_preferencias {
+		display:grid;
+		grid-template-columns: 20rem 10rem 10rem 10rem 10rem;
+		grid-template-rows: 100px;
+		margin-top: 1.5rem
+	}
+
+	.texto {
+		font-family: 'Merriweather', serif;
+		font-size: 35px; 
+		margin-top: 1.5rem;
+		margin-left: 1rem;
+		font-style: italic;
+		color: #adba99;
+	}
+
+	.lupa {
+		margin-top: 0.3rem;
+		margin-left: 1rem;
+	}
+
+	.barra_pesquisa {
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 0.8rem;
+		display:grid;
+		grid-template-columns: 60% 1fr;
+		
+	}
+
+	.preferencia1, .preferencia2, .preferencia3, .preferencia4 {
+		margin-left: 1rem;
+		font-size: 29px;
+		color: #ffffff;
+	}
+
+	.modalidade {
+		display: flex;
+		justify-content: center;
+	}
+
+	.bloco_com_alunos {
+		display: grid;
+		grid-template-columns: 30rem 30rem;
+		grid-template-rows: 45rem 45rem;
+		margin-top: 5rem;
+	}
+
+	.aluno {
+		margin-left: 5.5rem;
+		margin-top: 3rem;
+	}
+
+	.barra_nome_preferencias {
+		display: grid;
+		grid-template-columns: 13rem 13rem;
+		grid-template-rows:5rem;
+		margin-top: 2rem;
+		margin-left: 2rem;
+
+	}
+
+	/* Dropdown Button */
+	.dropbtn {
+  		background-color: #059900;
+  		color: white;
+  		padding: 16px;
+  		font-size: 25px;
+  		border: none;
+
+	}
+
+
+	/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+		margin-top: 1rem;
+ 		position: relative;
+  		display: inline-block;
+	}
+
+
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		background-color: #f1f1f1;
+  		min-width: 160px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
+
+
+	/* Links inside the dropdown */
+	.dropdown-content a {
+  		color: black;
+  		padding: 12px 16px;
+  		text-decoration: none;
+  		display: block;
+
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-color: #ddd;}
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {display: block;}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+	.nome_aluno, .preferencia_aluno {
+		display: flex;
+		justify-content: center; 
+	}
+
+	.preferencia_aluno {
+		display: block;
+		background-color: #059900;
+		border-radius: 0.8rem;
+		width:10rem;
+		margin-top: 1rem;
+	}
+
+	.barra_nome {
+		font-family: 'Merriweather', serif;
+		font-size: 25px;
+		padding: 0.25rem;
+		margin-top: .5rem;
+		color: #ffffff;
+	}
+
+	.nome_aluno {
+		font-family: 'Merriweather', serif;
+		font-size: 35px;
+		font-style: bold;
+	}
+
+	.grid_preferencias {
+		display: grid;
+		grid-template-rows: 5rem 5rem 5rem;
+	}
+
+	.adicionar {
+		margin-left: 22.5rem;
+		margin-top: 2rem;
+	}

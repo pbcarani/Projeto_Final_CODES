@@ -1,0 +1,49 @@
+@media (max-width: 68rem) {
+
+	.perfil {
+		margin-left: 12.5rem;
+		margin-top: 5rem;
+
+	}
+
+	.nome_personal {
+		font-family: 'Merriweather', serif;
+		font-size: 155px;
+		margin-left: 11rem;
+		margin-top: 2rem;
+		color: #000000; 
+	}
+
+	.bloco_meus_alunos {
+		display: block;
+		background-color: #059900;
+		width: 55rem;
+		height: 10rem;
+		margin-left: 3rem;
+		margin-top: 6rem; 
+	}
+
+	.texto_meus_alunos {
+		font-family: 'Merriweather', serif;
+		font-size: 95px;
+		padding: 2rem;
+		margin-left: 7rem;
+		color: #ffffff; 
+	}
+
+	.bloco_home {
+		display: block;
+		background-color: #059900;
+		width: 55rem;
+		height: 10rem;
+		margin-left: 3rem;
+		margin-top: 5rem; 
+	}
+
+	.texto_calendario {
+		font-family: 'Merriweather', serif;
+		font-size: 95px;
+		padding: 2rem;
+		margin-left: 10rem;
+		color: #ffffff; 
+	}
