@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
 
 	
 
@@ -8,4 +8,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	  popup.classList.toggle("show");
 	}
 
-})
+
