@@ -1,6 +1,7 @@
 @media (max-width: 68rem) {
 
 	.nome {
+		font-family: 'Roboto', sans-serif;
 		display: flex;
 		align-self: center;
 		margin-left: 22rem;
@@ -42,7 +43,7 @@
 	}
 
 	.dia {
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		display: flex;
 		justify-content: center;
 		font-size:100px; 
@@ -51,7 +52,7 @@
 
 	.dia_semana {
 		margin-top: 2rem;
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		display: flex;
 		justify-content: center;
 		font-size:75px; 

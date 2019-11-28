@@ -1,6 +1,7 @@
 @media (max-width: 68rem) {
-	
+
 	.nome {
+		font-family: 'Roboto', sans-serif;
 		display: flex;
 		align-self: center;
 		margin-left: 22rem;

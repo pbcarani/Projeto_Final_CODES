@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 
 	
 
@@ -7,3 +8,4 @@
 	  popup.classList.toggle("show");
 	}
 
+})

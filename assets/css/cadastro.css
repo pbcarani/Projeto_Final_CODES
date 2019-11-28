@@ -20,6 +20,7 @@
 
 }
 	.nome {
+		font-family: 'Roboto', sans-serif;
 		display: flex;
 		align-self: center;
 		margin-left: 22rem;
@@ -35,7 +36,7 @@
 	}
 
 	.aluno {
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		align-self: center;
 		margin-left: 5rem;
 		font-size: 4rem;
@@ -52,7 +53,7 @@
 }
 		
 	.idade {
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		align-self: center;
 		margin-left: 5rem;
 		font-size: 4rem;
@@ -60,7 +61,7 @@
 		font-color: white}
 
 	.peso{
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		align-self: center;
 		margin-left: 5rem;
 		font-size: 4rem;
@@ -69,7 +70,7 @@
 	}
 
 	.altura{
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		align-self: center;
 		margin-left: 5rem;
 		font-size: 4rem;
@@ -78,7 +79,7 @@
 	}
 
 	.objetivo{
-		font-family: 'Merriweather', serif;
+		font-family: 'Roboto', sans-serif;
 		align-self: center;
 		margin-left: 5rem;
 		font-size: 4rem;
